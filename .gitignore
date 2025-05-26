@@ -1,0 +1,26 @@
+# Ignore Python virtual environments
+sandboxenv/
+ProjectCode/.env
+token.json
+*/UserCredentials/
+*/__pycache__/
+*/.pytest_cache/
+*.pyc
+.DS_Store
+*/Data/
+Thumbs.db
+ehthumbs.db
+desktop.ini
+.Spotlight-V100/
+.DocumentRevisions-V100/
+.fseventsd/
+.VolumeIcon.icns
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.coverage
+htmlcov/
+**/.ipynb_checkpoints/
+.env.local
+.env.*.local
