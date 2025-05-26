@@ -52,15 +52,15 @@ def save_recent_keys(d):
     return None
 ## function to create a hash key
 def generate_event_key(
-    title: str,
-    description: str,
-    calendar_id: str,
-    event_date: str,
-    event_time: Optional[str],
-    end_date: str,
-    timezone: str,
-    notifications: Optional[List[Dict[str, Any]]],
-    invitees: Optional[List[str]]
+    title: str                  = "",
+    description: str            = "",
+    calendar_id: str            = "",
+    event_date: str             = "",
+    event_time: Optional[str]   = "",
+    end_date: str               = "",
+    timezone: str               = "",
+    notifications: Optional[List[Dict[str, Any]]] = None,
+    invitees: Optional[List[str]]               = None
 ) -> str:
     """
     Generate a deterministic unique key for an event based only on its input parameters.
